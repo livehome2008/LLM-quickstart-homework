@@ -4,9 +4,11 @@
 
 按照课程中老师提到的最低配置，16GiB显存应符合量化该模型的最低配置，但实际情况是，在量化时 out of memory
 
-故提交了 AWQ 量化 facebook\opt-2.7b 模型的结果，参考目录 awq_quantize_opt-2.7b
+故提交了一下两份 opt-2.7b 量化的 jupyter页，作为替代:
+1. GPTQ 量化 facebook\opt-2.7b 模型的结果，参考目录 gptq_quantize_opt-2.7b
+2. AWQ 量化 facebook\opt-2.7b 模型的结果，参考目录 awq_quantize_opt-2.7b
 
-## 参考如下截图：
+## 显存 OOM 的报错参考如下截图：
 1. 量化时报错
 ![gptq_quantize_error.png](gptq_quantize_error.png)
 
